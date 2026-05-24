@@ -1,86 +1,80 @@
-> E-Commerce Sales Analysis & Customer Segmentation (RFM)
+E-COMMERCE SALES ANALYSIS & CUSTOMER SEGMENTATION (RFM)
 
-> Project Overview  
-In this project, I worked on an e-commerce dataset to understand sales performance and customer behavior. I focused on revenue analysis, product category performance, and customer segmentation using SQL and Power BI.
+1. PROJECT OVERVIEW
+In this project, I analyzed an e-commerce dataset to understand sales performance and customer behavior. The goal was to generate business insights using SQL and visualize them using Power BI.
 
-> Objectives  
-- Analyze monthly revenue trends  
-- Identify top-performing product categories  
-- Understand customer purchasing behavior  
-- Segment customers using RFM analysis  
+2. OBJECTIVES
+- Analyze revenue trends over time
+- Identify top-performing product categories
+- Understand customer purchasing behavior
+- Segment customers using RFM analysis
 
-> Tools Used  
-- SQL (SQLite)  
-- Power BI  
-- GitHub  
+3. TOOLS USED
+- SQL (SQLite)
+- Power BI
+- GitHub
 
-> Dataset  
-I used the Brazilian E-Commerce Public Dataset (Olist), which includes:  
-- Orders data  
-- Customer data  
-- Product data  
-- Payment data  
+4. DATASET DESCRIPTION
+Brazilian E-Commerce Public Dataset (Olist)
+It contains:
+- Orders information
+- Customers details
+- Products details
+- Payment details
 
-> Data Preparation  
-- Joined multiple tables using SQL joins  
-- Filtered only delivered orders  
-- Created a master table for analysis  
+5. DATA PREPARATION
+- Combined multiple tables using SQL joins
+- Filtered only delivered orders
+- Created a master table for analysis
 
-> Analysis and Findings  
+6. EXPLORATORY DATA ANALYSIS
 
-> Revenue Analysis  
-Revenue increased gradually over time. A drop was observed in the last month, which may be due to incomplete data.
+6.1 Revenue Analysis
+Revenue showed a gradual increase over time. A slight drop was observed in the last month, likely due to incomplete data.
 
-> Top Product Categories  
-The top revenue-generating categories were:  
-- cama_mesa_banho  
-- beleza_saude  
-- informatica_acessorios  
+6.2 Top Product Categories
+Top categories based on revenue:
+- cama_mesa_banho
+- beleza_saude
+- informatica_acessorios
 
-These categories contribute most of the total revenue.
+These categories contributed the highest revenue.
 
-> Customer Analysis (RFM)  
-I analyzed customers using RFM:  
-- Recency: time since last purchase  
-- Frequency: number of purchases  
-- Monetary: total spending  
+7. CUSTOMER ANALYSIS (RFM)
 
-Findings:  
-- Most customers made only one purchase  
-- A large number of customers are inactive  
-- This shows a need for better customer retention strategies  
+RFM analysis was performed using:
+- Recency: Time since last purchase
+- Frequency: Number of purchases
+- Monetary: Total spending
 
-> Customer Segmentation  
-Based on RFM scores, customers were grouped into:  
-- Champions  
-- Loyal Customers  
-- At Risk  
-- Others  
+Findings:
+- Majority of customers made only one purchase
+- Many customers are inactive
+- Indicates weak customer retention
 
-This helps identify valuable customers and those who need engagement.
+8. CUSTOMER SEGMENTATION
+Customers were grouped into:
+- Champions
+- Loyal Customers
+- At Risk
+- Others
 
-> Dashboard  
-A Power BI dashboard was created to visualize:  
-- Revenue trends  
-- Top product categories  
-- Customer segments  
+This helps identify high-value and inactive customers for business targeting.
 
-The dashboard is included in this repository.
+9. DASHBOARD
+A Power BI dashboard was created to visualize:
+- Revenue trends
+- Top categories
+- Customer segments
 
-> Key Learnings  
-- Working with real-world datasets using SQL  
-- Data cleaning and joining multiple tables  
-- Performing business analysis using RFM  
-- Building dashboards in Power BI  
-- Converting raw data into business insights  
+10. CONCLUSION
+This project helped identify key business insights such as top revenue categories and customer behavior patterns. The analysis shows that improving customer retention can significantly increase revenue.
 
-> Project Structure  
-ecommerce-sql-project/  
-│  
-├── sql/  
-├── dashboard/  
-├── report/  
-└── README.md  
+11. FUTURE IMPROVEMENTS
+- Add predictive analysis for customer churn
+- Perform cohort analysis
+- Automate dashboard updates
+- Include time-based sales forecasting
 
-> Author  
+12. AUTHOR
 Sathiyaseelan Nagaraj
