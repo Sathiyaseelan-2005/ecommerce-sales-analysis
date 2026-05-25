@@ -65,8 +65,7 @@ This helps identify high-value and inactive customers for business targeting.
 A Power BI dashboard was created to visualize:
 - Revenue trends
 - Top categories
-- Customer segments
-
+- Slicers
 10. CONCLUSION
 This project helped identify key business insights such as top revenue categories and customer behavior patterns. The analysis shows that improving customer retention can significantly increase revenue.
 
