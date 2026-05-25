@@ -62,6 +62,8 @@ Customers were grouped into:
 This helps identify high-value and inactive customers for business targeting.
 
 9. DASHBOARD
+<img width="911" height="526" alt="image" src="https://github.com/user-attachments/assets/ecf450bf-8cf1-4b6e-8bf1-832eec0836ff" />
+
 A Power BI dashboard was created to visualize:
 - Revenue trends
 - Top categories
