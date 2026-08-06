@@ -78,4 +78,4 @@ This project helped identify key business insights such as top revenue categorie
 - Include time-based sales forecasting
 
 12. AUTHOR
-Sathiyaseelan Nagaraj
+Swetha
